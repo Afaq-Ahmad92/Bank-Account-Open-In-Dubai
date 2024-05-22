@@ -8,10 +8,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.Navbar{
-  height: 10vh;
-  background-color: #000000 ;
-}
 .Body{
   position: fixed;
   top: 10vh;
@@ -27,12 +23,4 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.5) !important;
  }
- .Button{
-  border: 2px solid black;
-  padding: 15px 40px;
-  font-weight: 700;
- }
-
- .Button:hover{
-  border: 2px solid white;
- }
+ 

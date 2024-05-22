@@ -1,0 +1,83 @@
+.HBanner{
+    min-height: 700px;
+    object-fit: contain;
+    color: white;
+    background-image:url('/assets/banner.jpg');
+    background-color: rgba(0, 0, 0, 0.7) !important;
+   }
+   .Button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-weight: 700;
+   }
+  
+   .Button:hover{
+    border: 2px solid white;
+   }
+.HBanner h1{
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 30px 160px !important;
+    line-height: 1em;
+    text-align: justify;
+}
+.HBanner p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 160px 15px !important;
+    line-height: 1em;
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .HBanner h1{
+    font-size: 5.3rem;
+    text-align: left;
+    padding: 90px !important;
+}
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .HBanner{
+        min-height: 500px !important;
+        background-position: center;
+        background-size: cover;
+        padding-right: 15px;
+    }
+    .HBanner h1{
+        font-size: 2rem !important;
+        text-align: left;
+        padding: 15px !important;
+        letter-spacing: 1px;
+    }
+    .HBanner p{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0 15px !important;
+        line-height: 1.5em;
+
+    }
+    .HBanner .Button{
+        margin-top: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
