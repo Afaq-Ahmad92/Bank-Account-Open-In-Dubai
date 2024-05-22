@@ -1,14 +1,13 @@
 import React from "react";
 import "./globals.css";
 import Banner from "./Banner";
+import Services from "./Services";
 
 const page = () => {
   return (
     <>
       <Banner/>
-      <section className="Section bg-gray-200 flex flex-row items-center justify-center">
-        
-      </section>
+      <Services/>
       <section className="Section bg-gray-300 flex items-center justify-center">
         <h2>Section 3</h2>
       </section>
