@@ -1,0 +1,131 @@
+.What__We__can__Do__Section{
+    box-sizing: border-box !important;
+    min-height: 600px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.What__LeftSide{
+    width: 50%;
+    height: 600px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.What__LeftSide img
+{
+    width: 600px;
+    border-radius: 15px;
+}
+.What__RightSide{
+    width: 50%;
+    height: 600px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 60px;
+}
+.What__RightSide h4{
+    font-size: 1.5rem;
+}
+.What__RightSide h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+.What__RightSide p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+}
+.What__RightSide .Button{
+    width: 200px;
+    margin-top: 10px;
+    align-self: center;
+}
+.custom-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 15px 0px 15px 0px;
+  }
+  
+  .custom-list li {
+    position: relative;
+    padding-left: 1.5em; /* Space for the tick mark */
+    margin-bottom: 0.5em; /* Space between list items */
+  }
+  
+  .custom-list li::before {
+    content: '\2713'; /* Unicode character for tick mark */
+    color: orangered; /* Color of the tick mark */
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .What__We__can__Do__Section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100vw;
+    }
+    .What__LeftSide{
+        margin-top: 60px !important;
+        border-top: 2px solid #CACACA;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .What__LeftSide img{
+        width: 360px;
+        height: 450px !important;
+    }
+    .What__RightSide{
+        margin-top: 60px !important;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    ul li{
+        margin-top: 15px;
+    }
+    .What__RightSide .Button{
+        align-self: center;
+    }
+}
+
+/* @media only screen and (min-width: 600px) {
+    .HServices{
+        background-color: rgb(47, 132, 206);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .HServices{
+        background-color: yellow;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .HServices{
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .HServices{
+        background-color: red;
+    }
+} */

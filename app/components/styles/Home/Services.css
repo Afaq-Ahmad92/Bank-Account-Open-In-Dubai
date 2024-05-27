@@ -1,14 +1,14 @@
 .HServices{
-    width: 100vw;
+    box-sizing: border-box !important;
     min-height: 550px;
-    background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 }
 .LeftSide{
-    width: 60vw;
+    width: 60%;
+    padding: 60px 0px 60px 60px ;
     height: 500px !important;
     display: flex;
     flex-direction: row;
@@ -44,6 +44,7 @@
     width: 90px;
     border-radius: 10px;
 }
+
 .Card h3{
     font-size: 1.5em;
     font-weight: 600;
@@ -54,7 +55,7 @@
     line-height: 1em;
 }
 .RightSide{
-    width: 40vw;
+    width: 40%;
     height: 500px !important;
     display: flex;
     flex-direction: column;
@@ -85,16 +86,21 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        width: 100vw;
+        width: 100%;
         min-height: 1500px;
+        background-color: black;
     }
     .LeftSide{
-        margin-top: 250px;
+        margin-top: 350px;
+        margin-bottom: 300px;
+        padding-left: 5px;
+        padding-right: 5px;
         width: 100%;
         display: flex;
         flex-direction: column;
     }
     .RightSide{
+
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
@@ -110,3 +116,32 @@
         margin-bottom: 30px;
     }
 }
+
+
+
+
+
+/* @media only screen and (min-width: 600px) {
+    .HServices{
+        background-color: rgb(47, 132, 206);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .HServices{
+        background-color: yellow;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .HServices{
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .HServices{
+        background-color: red;
+    }
+} */

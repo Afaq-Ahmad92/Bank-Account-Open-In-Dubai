@@ -1,7 +1,7 @@
 import React from "react";
-import "./components/styles/Home/Services.css";
-import {Array1,Array2} from "./components/Card_Array"
-import Card from "./components/Card";
+import "../styles/Home/Services.css";
+import {Array1,Array2} from "../shared/Card_Array"
+import Card from "../shared/Card";
 const Services = () => {
   return (
     <section className="HServices">

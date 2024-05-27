@@ -1,5 +1,5 @@
 import React from 'react'
-import "./components/styles/Home/Banner.css"
+import "../styles/Home/Banner.css"
 const Banner = () => {
   return (
     <section className="HBanner w-full bg-blend-darken   flex flex-col items-center justify-center">

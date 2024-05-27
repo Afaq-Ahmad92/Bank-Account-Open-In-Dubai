@@ -1,0 +1,77 @@
+.Projects__Main{
+    box-sizing: border-box;
+    margin-top: 25%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Projects{
+    height: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.Projects__Main h5,h6{
+    height: 10%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.Project{
+    padding: 0 5px;
+    position: relative;
+  display: inline-block; 
+}
+.Project img{
+    width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+}
+.hover-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .Project:hover .hover-text {
+    display: block;
+  }
+/* 
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    .HServices{
+        background-color: rgb(47, 132, 206);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .HServices{
+        background-color: yellow;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .HServices{
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .HServices{
+        background-color: red;
+    }
+} */

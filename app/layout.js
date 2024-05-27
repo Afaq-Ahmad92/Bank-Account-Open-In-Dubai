@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import CustomNavbar from "./components/CustomNavbar";
+import CustomNavbar from "./components/shared/CustomNavbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <CustomNavbar/>
-      <div className="w-full Body">
       {children}
-      </div>
       </body>
     </html>
   );

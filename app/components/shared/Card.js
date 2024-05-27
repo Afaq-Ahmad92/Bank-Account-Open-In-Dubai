@@ -1,9 +1,9 @@
 import React from 'react'
-import "./styles/Home/Services.css"
+import "../styles/Home/Services.css"
 const Card = ({IMG,TITLE,DESCRIPTION}) => {
   return (
     <div className='Card'>
-        <img src={IMG} alt='SVG' />
+        <img className='IMG' src={IMG} alt='SVG' />
         <h3>{TITLE}</h3>
         <p>{DESCRIPTION}</p>
     </div>
