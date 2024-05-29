@@ -3,20 +3,21 @@ import "../styles/Home/Projects.css"
 const Projects = () => {
   return (
     <section className='Projects__Main'>
-        <h5>Our projects</h5>
-        <h6>What we've been working on</h6>
+        <h5 className='Text'>Our projects</h5>
+        <h6 className='Text2'>What we've been working on</h6>
         <section className='Projects'>
         <section className='Project'>
-        <img src='/assets/Solution.jpg' alt='SVG' />
-        <h1 className='hover-text'>Hovered Text</h1>
+        <img  src='/assets/COFO.png' alt='SVG' />
+        <a href='https://www.cofocsp.com' >  <h1  className='hover-text'>COFOCSP</h1> </a>
         </section>
         <section className='Project'>
-        <img src='/assets/Solution.jpg' alt='SVG' />
-        <h1 className='hover-text'>Hovered Text</h1>
+        <img href="" src='/assets/Company.png' alt='SVG' />
+        <a href='https://www.companyformationindubai.com/' >  <h1  className='hover-text'>Company Formation In Dubai</h1> </a>
+        
         </section>
         <section className='Project'>
-        <img src='/assets/Solution.jpg' alt='SVG' />
-        <h1 className='hover-text'>Hovered Text</h1>
+        <img  href="" src='/assets/PRO.png' alt='SVG' />
+        <a href='https://proservicesindubai.com/' >  <h1  className='hover-text'>PRO Services In Dubai</h1> </a>
         </section>
         </section>
     </section>

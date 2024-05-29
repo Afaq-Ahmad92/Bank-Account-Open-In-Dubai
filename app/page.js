@@ -4,7 +4,7 @@ import Banner from "./components/Home/Banner";
 import Services from "./components/Home/Services";
 import What_We_Can_Do from "./components/Home/What_We_Can_Do";
 import Solution from "./components/Home/Solution";
-import Timeline from "./components/shared/Timeline";
+// import Timeline from "./components/shared/Timeline";
 import Projects from "./components/Home/Projects";
 const page = () => {
   
@@ -14,7 +14,7 @@ const page = () => {
       <Services/>
       <What_We_Can_Do/>
       <Solution/>
-      <Timeline />
+      {/* <Timeline /> */}
       <Projects/>
     </>
   );
