@@ -43,13 +43,67 @@
 .What__RightSide p {
     font-size: 18px;
     font-weight: 500;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 .What__RightSide .Button{
     width: 200px;
     margin-top: 10px;
     align-self: center;
 }
+.progress-bar-list {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .progress-bar-item {
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+  }
+  
+  .progress-bar-fill {
+    background-color: #ff5757;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+.icon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .icon-list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    color: #ff5757; /* Customize the icon color */
+    font-size: 1.5rem; /* Customize the icon size */
+  }
+  
+  .icon-list-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333; /* Customize the text color */
+  }
+  
 .custom-list {
     list-style-type: none; /* Remove default bullet points */
     padding: 0;
@@ -79,8 +133,8 @@
         width: 100vw;
     }
     .What__LeftSide{
-        margin-top: 60px !important;
-        border-top: 2px solid #CACACA;
+        margin-top: 5px !important;
+        /* border-top: 2px solid #CACACA; */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -92,11 +146,12 @@
         height: 450px !important;
     }
     .What__RightSide{
-        margin-top: 60px !important;
+        margin-top: 30px !important;
         width: 100%;
         padding-left: 20px;
         padding-right: 5px;
     }
+    
     ul li{
         margin-top: 15px;
     }
