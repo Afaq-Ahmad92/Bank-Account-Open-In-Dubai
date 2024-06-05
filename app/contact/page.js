@@ -1,8 +1,15 @@
 import React from 'react'
+import Banner from './Banner'
+import Get_In_Touch from './Get_In_Touch'
+import Bussines_Solution from './Bussines_Solution'
 
 const page = () => {
   return (
-    <h1>This is Contact Us Page</h1>
+    <>
+      <Banner/>
+      <Get_In_Touch/>
+      <Bussines_Solution/>
+    </>
   )
 }
 

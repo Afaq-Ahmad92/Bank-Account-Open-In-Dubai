@@ -47,7 +47,9 @@ const Footer = () => {
       {iconItems.map((item, index) => (
         <div className="icon-item" key={index}>
         <a href={item.url} target="_blank" rel="noopener noreferrer" aria-label={item.name}>
-          <FontAwesomeIcon icon={item.icon} className="icon" />
+          <FontAwesomeIcon icon={item.icon} style={{
+            color: "#ffffff"
+          }} className="icon" />
           <span>{item.text}</span>
           </a>
         </div>
