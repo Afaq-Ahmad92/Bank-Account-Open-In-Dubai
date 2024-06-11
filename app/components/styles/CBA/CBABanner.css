@@ -1,0 +1,72 @@
+.CBABanner {
+    box-sizing: border-box !important;
+    min-height: 700px;
+    object-fit: contain;
+    color: white;
+    background-image: url('/assets/Solution.jpg');
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.CBALeft h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.CBALeft h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1em;
+    margin-bottom: 15px;
+    }
+    
+    .CBALeft p {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.CBAButton{
+    width: 200px;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 15px;
+}
+.CBALeft {
+    padding: 20px 90px 20px 120px !important;
+    flex: 0.65;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+
+}
+
+.CBARight {
+    flex: 0.35;
+    width: 35%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .CBALeft {
+        padding: 75px 15px 20px 15px !important;
+        flex: 0.99;
+        width: 99%;
+    
+    }
+    .CBARight{
+        flex: 0.01;
+        width: 1%;
+    }
+}
