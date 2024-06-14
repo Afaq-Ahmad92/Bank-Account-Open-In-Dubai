@@ -10,7 +10,7 @@ const Skills = () => {
   ];
 
   return (
-    <section  className="What__We__can__Do__Section">
+    <section className="What__We__can__Do__Section">
       <div className="What__LeftSide">
         <img src="/assets/Skills.jpg" alt="What we can do" />
       </div>

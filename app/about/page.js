@@ -9,8 +9,8 @@ const page = () => {
     <>
       <Banner />
       <What_we_offer />
-      <Why_Choose_Us/>
-      <Skills/>
+      <Why_Choose_Us />
+      <Skills />
     </>
   );
 };

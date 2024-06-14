@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/styles/About/Why_Choose_Us.css"
+import "../components/styles/About/Why_Choose_Us.css";
 const Why_Choose_Us = () => {
   return (
     <section className="WSolution bg-blend-darken">

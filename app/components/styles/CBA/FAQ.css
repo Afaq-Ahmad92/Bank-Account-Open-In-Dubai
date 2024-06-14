@@ -1,4 +1,4 @@
-.FAQMain{
+.FAQMain {
     width: 100%;
     min-height: 500px;
     background-color: #f2f5f4;
@@ -8,28 +8,33 @@
     align-items: center;
     padding: 15px 60px;
 }
-.FAQMain h6{
+
+.FAQMain h6 {
     font-size: 2em;
     font-weight: 700;
 }
-.FAQS{
+
+.FAQS {
     flex: 0.85;
     width: 80%;
     height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   
+
 }
+
 @media only screen and (max-width: 600px) {
-    .FAQMain{
+    .FAQMain {
         padding: 15px 15px;
-    }  
-    .FAQS{
+    }
+
+    .FAQS {
         flex: 1;
         width: 100%;
     }
-    .FAQMain h6{
+
+    .FAQMain h6 {
         font-size: 1.5em !important;
         font-weight: 700;
     }

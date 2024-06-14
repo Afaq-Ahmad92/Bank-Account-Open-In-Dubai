@@ -41,22 +41,22 @@ const Get_In_Touch = () => {
         </p>
       </section>
       <section className="GBottom">
-            {iconItems.map((item, index) => (
-        <section className="Gfirst">
-              <div className="Gicon-item" key={index}>
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={item.name}
-                >
-                  <FontAwesomeIcon icon={item.icon} className="Gicon" />
-                    <h3>{item.title}</h3>
-                  <p>{item.text}</p>
-                </a>
-              </div>
-        </section>
-            ))}
+        {iconItems.map((item, index) => (
+          <section className="Gfirst">
+            <div className="Gicon-item" key={index}>
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={item.name}
+              >
+                <FontAwesomeIcon icon={item.icon} className="Gicon" />
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
+              </a>
+            </div>
+          </section>
+        ))}
       </section>
     </section>
   );

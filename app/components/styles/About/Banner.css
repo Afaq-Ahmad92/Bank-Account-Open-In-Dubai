@@ -1,15 +1,16 @@
-.ABanner{
+.ABanner {
     box-sizing: border-box !important;
     min-height: 400px;
     object-fit: contain;
     color: white;
-    background-image:url('/assets/Solution.jpg');
+    background-image: url('/assets/Solution.jpg');
     background-color: rgba(0, 0, 0, 0.7) !important;
     background-size: cover;
     background-position: center;
 }
-.ABanner h1{
-    font-size: 3rem;
+
+.ABanner h1 {
+    font-size: 3rem !important;
     font-weight: 800;
     padding: 20px 90px 20px 120px !important;
     line-height: 1em;

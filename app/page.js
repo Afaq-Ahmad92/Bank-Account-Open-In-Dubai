@@ -7,15 +7,14 @@ import Solution from "./components/Home/Solution";
 // import Timeline from "./components/shared/Timeline";
 import Projects from "./components/Home/Projects";
 const page = () => {
-  
   return (
     <>
-      <Banner/>
-      <Services/>
-      <What_We_Can_Do/>
-      <Solution/>
+      <Banner />
+      <Services />
+      <What_We_Can_Do />
+      <Solution />
       {/* <Timeline /> */}
-      <Projects/>
+      <Projects />
     </>
   );
 };

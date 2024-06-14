@@ -1,4 +1,4 @@
-.Get__touch{
+.Get__touch {
     width: 100%;
     min-height: 500px;
     display: flex;
@@ -6,35 +6,40 @@
     justify-content: center;
     align-self: center;
 }
-.GTop{
-    flex:0.50;
+
+.GTop {
+    flex: 0.50;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
 }
-.GBottom h3{
+
+.GBottom h3 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 10px;
     line-height: 1em;
     text-transform: capitalize;
 }
-.GTop, .GBottom p{
+
+.GTop, .GBottom p {
     font-size: 18px;
     font-weight: 500;
-    
+
     line-height: 1em;
 }
-.GTop h2{
+
+.GTop h2 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1em;
     text-transform: capitalize;
 }
-.GBottom{
-    flex:0.50;
+
+.GBottom {
+    flex: 0.50;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -43,7 +48,8 @@
     padding-right: 30px;
     padding-top: 30px;
 }
-.Gfirst{
+
+.Gfirst {
     width: 25%;
     padding: 0 15px;
     display: flex;
@@ -52,31 +58,36 @@
     border-right: 1px solid #cacaca;
 }
 
-  
-  .Gicon-item {
+
+.Gicon-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
 
-  }
-  
-  .Gicon {
+}
+
+.Gicon {
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #000000; /* Customize the icon color */
-    font-size: 3rem; /* Customize the icon size */
-  }
-  @media only screen and (max-width: 600px) {
-    .GTop{
+    color: #000000;
+    /* Customize the icon color */
+    font-size: 3rem;
+    /* Customize the icon size */
+}
+
+@media only screen and (max-width: 600px) {
+    .GTop {
         padding: 30px;
     }
-    .GBottom{
+
+    .GBottom {
         display: flex;
         flex-direction: column;
     }
-    .Gfirst{
+
+    .Gfirst {
         width: 100%;
         border-right: none;
         min-height: 200px;
@@ -88,12 +99,14 @@
         justify-content: center;
         align-items: center;
     }
-    .Gicon{
+
+    .Gicon {
         color: black !important;
         font-size: 3rem !important;
     }
-    .GBottom h3{
+
+    .GBottom h3 {
         font-size: 1.8rem !important;
     }
-    
-  }
+
+}

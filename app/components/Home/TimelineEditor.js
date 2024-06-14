@@ -1,11 +1,11 @@
 // src/components/TimelineEditor.js
-"use client"
-import React, { useState } from 'react';
-import TimelineEntry from '../shared/TimelineEntry';
+"use client";
+import React, { useState } from "react";
+import TimelineEntry from "../shared/TimelineEntry";
 
 const TimelineEditor = () => {
   const [entries, setEntries] = useState([]);
-  const [newEntry, setNewEntry] = useState({ title: '', description: '' });
+  const [newEntry, setNewEntry] = useState({ title: "", description: "" });
 
   const handleNewEntryChange = (e) => {
     const { name, value } = e.target;
@@ -14,15 +14,19 @@ const TimelineEditor = () => {
 
   const handleAddEntry = () => {
     setEntries([...entries, { ...newEntry, id: Date.now() }]);
-    setNewEntry({ title: '', description: '' });
+    setNewEntry({ title: "", description: "" });
   };
 
   const handleDeleteEntry = (id) => {
-    setEntries(entries.filter(entry => entry.id !== id));
+    setEntries(entries.filter((entry) => entry.id !== id));
   };
 
   const handleUpdateEntry = (updatedEntry) => {
-    setEntries(entries.map(entry => (entry.id === updatedEntry.id ? updatedEntry : entry)));
+    setEntries(
+      entries.map((entry) =>
+        entry.id === updatedEntry.id ? updatedEntry : entry
+      )
+    );
   };
 
   return (
@@ -44,12 +48,15 @@ const TimelineEditor = () => {
           className="w-full mb-2 p-2"
           placeholder="Description"
         />
-        <button onClick={handleAddEntry} className="bg-green-500 text-white px-4 py-2">
+        <button
+          onClick={handleAddEntry}
+          className="bg-green-500 text-white px-4 py-2"
+        >
           Add Entry
         </button>
       </div>
       <div className="entries">
-        {entries.map(entry => (
+        {entries.map((entry) => (
           <TimelineEntry
             key={entry.id}
             entry={entry}

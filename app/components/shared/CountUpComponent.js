@@ -1,7 +1,7 @@
 // components/CountUpComponent.js
-"use client"
-import React from 'react';
-import CountUp from 'react-countup';
+"use client";
+import React from "react";
+import CountUp from "react-countup";
 
 const CountUpComponent = ({ start, end, duration, suffix }) => {
   return (

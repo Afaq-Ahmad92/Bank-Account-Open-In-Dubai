@@ -10,7 +10,7 @@
 
 .Patners {
     flex: 0.50;
-    height: 50% ;
+    height: 50%;
     width: 80%;
     background-color: rgb(255, 255, 255) !important;
     display: flex;
@@ -28,10 +28,12 @@
     justify-content: center;
     align-items: center;
 }
-.PText h3{
+
+.PText h3 {
     font-weight: 600;
     font-size: 1.5em;
 }
+
 .Ppatner {
     flex: 0.80;
     width: 80% !important;
@@ -42,29 +44,35 @@
     align-items: center;
     padding-right: 15px;
 }
+
 .Ppatner img {
     width: 15%;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 @media only screen and (max-width: 600px) {
     .Patners {
         width: 100%;
     }
-    .PText{
+
+    .PText {
         flex: 0.25;
         width: 25%;
     }
-    .PText h3{
+
+    .PText h3 {
         font-size: 1em !important;
         font-weight: 500;
     }
+
     .Ppatner {
         flex: 0.75;
         width: 75%;
         padding-right: 5px;
         padding-left: 5px;
     }
+
     .Ppatner img {
         width: 15%;
         padding-left: 5px;

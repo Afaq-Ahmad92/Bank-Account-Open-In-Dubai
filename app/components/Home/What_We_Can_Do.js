@@ -14,11 +14,11 @@ const What_We_Can_Do = () => {
           lose girl long of up give.
         </p>
         <ul className="custom-list">
-            <li>Desirous men exercise overcame procured speaking her followed.</li>
-            <li>Property men the why smallest graceful day insisted required.</li>
-            <li>Situation admitting promotion at or to perceived be.</li>
-            <li>Acuteness allowance an at eagerness favourite in extensive exquisite.</li>
-            <li>Saw supported too joy promotion engrossed propriety.</li>
+          <li>
+            Desirous men exercise overcame procured speaking her followed.
+          </li>
+          <li>Property men the why smallest graceful day insisted required.</li>
+          <li>Situation admitting promotion at or to perceived be.</li>
         </ul>
         <button className="Button">Get Start Now</button>
       </div>

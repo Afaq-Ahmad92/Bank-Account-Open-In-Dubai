@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home/Services.css";
-import {Array1,Array2} from "../shared/Card_Array"
+import { Array1, Array2 } from "../shared/Card_Array";
 import Card from "../shared/Card";
 const Services = () => {
   return (
@@ -17,30 +17,30 @@ const Services = () => {
         </p>
         <button className="Button">Get Start Now</button>
       </div>
-      <div className="LeftSide" >
+      <div className="LeftSide">
         <div className="Array1Mapping">
-                        {
-                            Array1.map((data,id)=>{
-                                return <Card 
-                                IMG={data.Svg}
-                                key={id}
-                                TITLE={data.Title}
-                                DESCRIPTION={data.Description}
-                                 />
-                            })
-                        }
+          {Array1.map((data, id) => {
+            return (
+              <Card
+                IMG={data.Svg}
+                key={id}
+                TITLE={data.Title}
+                DESCRIPTION={data.Description}
+              />
+            );
+          })}
         </div>
-        <div className="Array2Mapping"> 
-        {
-                            Array2.map((data,id)=>{
-                                return <Card 
-                                IMG={data.Svg}
-                                key={id}
-                                TITLE={data.Title}
-                                DESCRIPTION={data.Description}
-                                 />
-                            })
-                        }
+        <div className="Array2Mapping">
+          {Array2.map((data, id) => {
+            return (
+              <Card
+                IMG={data.Svg}
+                key={id}
+                TITLE={data.Title}
+                DESCRIPTION={data.Description}
+              />
+            );
+          })}
         </div>
       </div>
     </section>

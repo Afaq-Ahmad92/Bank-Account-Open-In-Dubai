@@ -33,7 +33,7 @@ const What_we_offer = () => {
   ];
 
   return (
-    <section  className="What__We__can__Do__Section">
+    <section className="What__We__can__Do__Section">
       <div className="What__RightSide">
         <h4>What we offer</h4>
         <h3>We Offer A Full Stack Of Digital Services</h3>
