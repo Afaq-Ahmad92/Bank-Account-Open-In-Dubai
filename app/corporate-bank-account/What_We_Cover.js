@@ -37,10 +37,10 @@ const What_We_Cover = () => {
   return (
     <section className="CoverMain">
       <section className="CoverTop">
-        <h6>SERVICES</h6>
-        <h5>
+        <h5>SERVICES</h5>
+        <p>
           What we cover for you to grow your business and feel calm and relaxed:
-        </h5>
+        </p>
       </section>
       <section className="CoverBottom">
         {ServicesArray.map((data, id) => {

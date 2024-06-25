@@ -14,18 +14,21 @@
     height: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
 }
 
-.TopText h4 {
-    font-size: 2em;
-    font-weight: 600;
+.TopText h3 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1em;
 }
 
-.TopText h5 {
-    font-size: 1.5em;
+.TopText p {
+    font-size: 18px;
+    line-height: 1em;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .SuationCards {
@@ -88,5 +91,15 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+    .TopText h3 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+    .TopText h4 {
+        font-size: 34px;
+        width: 100% !important;
+        text-align: left;
     }
 }

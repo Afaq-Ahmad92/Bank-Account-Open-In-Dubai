@@ -35,8 +35,8 @@ const What_we_offer = () => {
   return (
     <section className="What__We__can__Do__Section">
       <div className="What__RightSide">
-        <h4>What we offer</h4>
-        <h3>We Offer A Full Stack Of Digital Services</h3>
+        <h2>What we offer</h2>
+        <h6>We Offer A Full Stack Of Digital Services</h6>
         <p>
           Her companions instrument set estimating remarkably solicitude
           motionless. Property men the why smallest graceful day insisted
@@ -52,7 +52,9 @@ const What_we_offer = () => {
             </div>
           ))}
         </ul>
-        <button className="Button">Get Start Now</button>
+        <button style={{
+          padding : '15px 0'
+        }} className="Button">Get Start Now</button>
       </div>
       <div className="What__LeftSide">
         <img src="/assets/What_We_Offer.jpg" alt="What we can do" />

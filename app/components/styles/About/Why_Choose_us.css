@@ -15,7 +15,7 @@
 }
 
 .WSolution h3 {
-    font-size: 2.5rem;
+    font-size: 64px !important;
     width: 50%;
     font-weight: 700;
     margin-bottom: 10px;
@@ -38,6 +38,7 @@
 
     .WSolution h3 {
         width: 100%;
+        font-size: 36px !important;
     }
 
     .WSolution p {

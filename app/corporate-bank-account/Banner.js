@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section className="CBABanner bg-blend-darken ">
       <section className="CBALeft">
-        <h2>For small to medium sized businesses in the UAE:</h2>
+
         <h1>
           As Certified UAE Accountants we take care of your Bookkeeping and
           Accounting

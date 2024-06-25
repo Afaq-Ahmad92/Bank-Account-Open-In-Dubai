@@ -10,23 +10,25 @@
 
 .BenefitsTop {
     flex: 0.10;
-    width: 80%;
+    width: 100%;
     height: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 10px;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-left: 60px;
 }
 
-.BenefitsTop h5 {
-    font-size: 2em !important;
-    font-weight: 700;
+.BenefitsTop h4 {
+    font-size: 56px !important;
+    font-weight: 800;
     line-height: 1em;
 }
 
-.BenefitsTop h6 {
-    font-size: 1.5em;
-    font-weight: 600;
+.BenefitsTop p {
+    font-size: 18px;
+    font-weight:500;
+    line-height: 1em;
 }
 
 .BenefitsMid {
@@ -77,24 +79,33 @@
     margin-top: 5%;
 }
 
-.BenefitsList h6 {
-    font-size: 1.5em;
-    font-weight: 600;
+.BenefitsTop h4 {
+    font-size: 34px;
+}
+.BenefitsTop p {
+    font-size: 16px;
 }
 
 .BenefitsButton {
     height: 100%;
     width: 20%;
-    border: 2px solid black;
+    border: 3px solid black;
     align-self: flex-start;
-    margin-left: 60px;
+    margin-left: 45px;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-weight: 700;
 }
 
 .BenefitsButton:hover {
-    border: 2px solid orangered;
-    color: orangered;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.BenefitsList h6{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -107,8 +118,9 @@
     }
 
     .BenefitsTop h5 {
-        font-size: 1.5em !important;
-        font-weight: 600;
+        font-size: 32px !important;
+        font-weight: 700;
+        line-height: 1em;
     }
 
     .BenefitsMid {
@@ -163,7 +175,10 @@
     }
 
     .BenefitsTop h6 {
-        font-size: 22px !important;
-        font-weight: 500;
+        font-size: 30px !important;
+    }
+    .BenefitsList h6{
+        font-size: 20px;
+        
     }
 }

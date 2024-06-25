@@ -4,7 +4,7 @@ import CountUpComponent from "../shared/CountUpComponent";
 const Solution = () => (
   <>
     <section className="Solution bg-blend-darken">
-      <h3>Get a solutions to your businesses</h3>
+      <h5>Get a solutions to your businesses</h5>
       <p>
         Demesne far hearted suppose venture excited see had has. Dependent on so
         extremely delivered by. Yet no jokes worse her why. Bed one supposing

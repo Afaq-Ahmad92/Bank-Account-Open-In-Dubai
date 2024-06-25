@@ -11,20 +11,24 @@
 .CoverTop {
     flex: 0.15;
     height: 15%;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 60px;
+    padding-top: 15px;
 }
 
 .CoverTop h5 {
-    font-size: 2.5em;
-    font-weight: 700;
+    font-size: 56px !important;
+    font-weight: 800;
+    line-height: 1em;
 }
 
-.CoverTop h6 {
-    font-size: 1.5em;
-    font-weight: 600;
+.CoverTop p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
 }
 
 .CoverBottom {

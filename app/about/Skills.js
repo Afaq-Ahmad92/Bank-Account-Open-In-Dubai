@@ -15,8 +15,8 @@ const Skills = () => {
         <img src="/assets/Skills.jpg" alt="What we can do" />
       </div>
       <div className="What__RightSide">
-        <h4>Skills</h4>
-        <h3>Our Work Skills</h3>
+        <h5>Skills</h5>
+        <h4>Our Work Skills</h4>
         <p>
           Her companions instrument set estimating remarkably solicitude
           motionless. Property men the why smallest graceful day insisted

@@ -16,7 +16,7 @@
 }
 
 .GBottom h3 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
     line-height: 1em;
@@ -31,7 +31,7 @@
 }
 
 .GTop h2 {
-    font-size: 2.5rem;
+    font-size: 68px;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1em;
@@ -104,9 +104,11 @@
         color: black !important;
         font-size: 3rem !important;
     }
-
+    .GTop h2 {
+        font-size: 38px !important;
+    }
     .GBottom h3 {
-        font-size: 1.8rem !important;
+        font-size: 30px !important;
     }
 
 }

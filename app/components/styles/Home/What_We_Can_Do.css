@@ -28,38 +28,64 @@
     height: 100% !important;
     display: flex;
     flex-direction: column;
-    align-items: center !important;
     justify-content: center !important;
-    padding-left: 120px;
+    padding-left: 60px;
     padding-right: 60px;
 }
 
 .What__RightSide h4 {
-    font-size: 2rem !important;
+    font-size: 40px !important;
+    font-weight: 600px;
     line-height: 1em !important;
     margin-bottom: 10px !important;
 }
 
 .What__RightSide h3 {
-    font-size: 2.5rem;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1em;
     text-transform: capitalize;
 }
+.What__RightSide h5 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+.What__RightSide h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+.What__RightSide h6 {
+    font-size: 40px !important;
+    font-weight: 600px;
+    line-height: 1em !important;
+    margin-bottom: 10px !important;
+}
 
 .What__RightSide p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1em;
 }
 
-.What__RightSide .Button {
+.What__RightSide Button {
     width: 200px;
+    border: 3px solid black;
+    font-weight: 700;
     margin-top: 10px;
     align-self: center;
 }
-
+.What__RightSide Button:hover {
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+}
 .progress-bar-list {
     width: 100%;
     padding: 20px;
@@ -106,7 +132,7 @@
 .icon {
     color: #ff5757;
     /* Customize the icon color */
-    font-size: 1.5rem;
+    font-size: 18px;
     /* Customize the icon size */
 }
 
@@ -126,6 +152,7 @@
 
 .custom-list li {
     position: relative;
+    font-size: 18px;
     padding-left: 1.5em;
     /* Space for the tick mark */
     margin-bottom: 0.5em;
@@ -172,10 +199,16 @@
     .What__RightSide {
         margin-top: 30px !important;
         width: 100%;
-        padding-left: 20px;
-        padding-right: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
     }
-
+    .What__RightSide h3 {
+        font-size: 36px;
+    }
+    .What__RightSide h4 {
+        font-size: 34px !important;
+    }
     ul li {
         margin-top: 15px;
     }
@@ -183,6 +216,19 @@
     .What__RightSide .Button {
         align-self: center;
     }
+    .custom-list li {
+      font-size: 16px;  
+    }
+    .What__RightSide h2 {
+        font-size: 38px;
+    }
+    .What__RightSide h6 {
+        font-size: 30px !important;
+     
+    }
+    .What__RightSide h5 {
+        font-size: 36px;
+        }
 }
 
 /* @media only screen and (min-width: 600px) {

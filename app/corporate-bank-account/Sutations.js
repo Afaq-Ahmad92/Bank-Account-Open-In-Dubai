@@ -37,8 +37,8 @@ const Sutations = () => {
   return (
     <section className="SuationMain">
       <section className="TopText">
-        <h5>SITUATIONS</h5>
-        <h4>Do you recognize one of the following situations?</h4>
+        <h3>SITUATIONS</h3>
+        <p>Do you recognize one of the following situations?</p>
       </section>
       <section className="SuationCards">
         <section className="SuationLeft">

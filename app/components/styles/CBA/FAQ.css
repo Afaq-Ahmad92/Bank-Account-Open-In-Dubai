@@ -10,8 +10,9 @@
 }
 
 .FAQMain h6 {
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1em;
 }
 
 .FAQS {
@@ -35,7 +36,7 @@
     }
 
     .FAQMain h6 {
-        font-size: 1.5em !important;
+        font-size: 26px !important;
         font-weight: 700;
     }
 }

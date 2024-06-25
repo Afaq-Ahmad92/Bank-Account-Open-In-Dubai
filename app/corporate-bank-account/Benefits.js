@@ -23,11 +23,11 @@ const Benefits = () => {
   return (
     <section className="BenefitsMain">
       <section className="BenefitsTop">
-        <h6>BENEFITS</h6>
-        <h5>
+        <h4>BENEFITS</h4>
+        <p>
           So let us handle your accounting and bookkeeping instead and enjoy the
           following...
-        </h5>
+        </p>
       </section>
       <section className="BenefitsMid">
         <section className="BenefitsMidLeft">

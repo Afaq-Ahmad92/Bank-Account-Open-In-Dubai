@@ -16,37 +16,36 @@
 
 .CBALeft h1 {
     margin-bottom: 15px;
-    font-size: 3rem !important;
+    font-size: 60px;
     font-weight: 800;
     line-height: 1em;
 }
 
-.CBALeft h2 {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1em;
-    margin-bottom: 15px;
-}
 
 .CBALeft p {
     margin-bottom: 15px;
     margin-top: 5px;
     font-size: 18px;
     font-weight: 500;
-    line-height: 1.1em;
+    line-height: 1em;
 }
 
 .CBAButton {
     width: 200px;
-    border: 1px solid white;
+    border: 3px solid white;
     margin-top: 10px;
     padding: 15px;
+    font-weight: 700;
 }
-
+.CBAButton:hover {
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+}
 .CBALeft {
-    padding: 20px 90px 20px 120px !important;
-    flex: 0.65;
-    width: 65%;
+    padding: 20px 0px 20px 60px !important;
+    flex: 0.70;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -55,8 +54,8 @@
 }
 
 .CBARight {
-    flex: 0.35;
-    width: 35%;
+    flex: 0.30;
+    width: 30%;
     height: 100%;
 }
 
@@ -74,12 +73,11 @@
     }
 
     .CBALeft h1 {
-        font-size: 2rem !important;
-        letter-spacing: 1px;
+        font-size: 40px !important;
     }
 
     .CBALeft h2 {
-        font-size: 1.5rem !important;
+        font-size: 24px !important;
         font-weight: 500;
         line-height: 1em;
         margin-bottom: 15px;

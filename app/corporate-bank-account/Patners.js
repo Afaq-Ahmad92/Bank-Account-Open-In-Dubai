@@ -5,7 +5,7 @@ const Patners = () => {
     <section className="TextPatners">
       <div className="Patners">
         <section className="PText">
-          <h3>Our partners:</h3>
+          <h2>Our partners:</h2>
         </section>
         <section className="Ppatner">
           <img src="/assets/Government-of-Dubai.webp" alt="" />

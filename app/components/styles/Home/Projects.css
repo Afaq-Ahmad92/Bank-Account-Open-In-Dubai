@@ -26,11 +26,17 @@
     padding-right: 90px;
 }
 
-.Projects__Main h5, h6 {
-    height: 10%;
-    font-size: 2.5rem;
+.Projects__Main h5 {
+    padding: 0 0 10px;
+    font-size: 56px;
     font-weight: 700;
-    line-height: 1.5em;
+    line-height: 1em;
+}
+.Projects__Main h6 {
+    padding: 10px 0;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1em;
 }
 
 .Project {
@@ -120,11 +126,12 @@
     }
 
     .Projects__Main h5 {
-        font-size: 1.5rem !important;
+        font-size: 32px !important;
     }
 
     .Projects__Main h6 {
         text-align: center;
+        font-size: 30px !important;
     }
 
     .hover-text {

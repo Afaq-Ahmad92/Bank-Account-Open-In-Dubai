@@ -14,9 +14,9 @@
     background-repeat: no-repeat;
 }
 
-.CSolution h3 {
-    font-size: 2.5rem;
-    width: 50%;
+.CSolution h4 {
+    font-size: 60px;
+    width: 60%;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1em;
@@ -67,9 +67,9 @@
         margin-top: 30px;
     }
 
-    .CSolution h3 {
+    .CSolution h4 {
         width: 100%;
-
+        font-size: 34px !important;
     }
 
     .CSolution p {

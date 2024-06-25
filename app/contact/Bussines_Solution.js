@@ -4,7 +4,7 @@ const Bussines_Solution = () => {
   return (
     <>
       <section className="CSolution bg-blend-darken">
-        <h3>Get a solutions to your businesses</h3>
+        <h4>Get a solutions to your businesses</h4>
         <p>
           Demesne far hearted suppose venture excited see had has. Dependent on
           so extremely delivered by. Yet no jokes worse her why. Bed one
