@@ -14,7 +14,7 @@ const page = () => {
       <What_We_Can_Do />
       <Solution />
       {/* <Timeline /> */}
-      <Projects />
+      {/* <Projects /> */}
     </>
   );
 };
